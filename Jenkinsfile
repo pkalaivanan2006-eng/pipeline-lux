@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "kalai0011/kalai"
+        IMAGE_NAME = "kalai0011/lux"
         IMAGE_TAG = "${BUILD_NUMBER}"
         TEST_CONTAINER = "test-container"
         APP_CONTAINER = "flask-app"
